@@ -1,0 +1,21 @@
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 320px;
+  width: 30vw;
+  padding-top: 65vh;
+  padding-left: 6vw;
+  padding-bottom: 20vh;
+  text-align: left;
+}
+
+@media (max-width: 675px) {
+  .infoBox {
+    width: 95vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    order: 3;
+  }
+}

@@ -1,0 +1,32 @@
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 340px;
+  padding-left: 11vw;
+  padding-bottom: 1vh;
+  text-align: left;
+}
+
+.subtitle {
+  color: gray;
+  margin: 0;
+}
+
+.profesion {
+  border-bottom: 3px solid grey;
+}
+
+@media (max-width: 760px) {
+  .textBox {
+    padding-left: 5vw;
+  }
+}
+
+@media (max-width: 675px) {
+    .textBox {
+        padding-bottom: 1vh;
+        margin: 0 auto;
+      }
+          }

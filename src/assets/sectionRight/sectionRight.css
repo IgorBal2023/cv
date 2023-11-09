@@ -1,0 +1,30 @@
+.sectionRight {
+  position: absolute;
+  width: 55%;
+  background-color: #f9f9f6;
+  right: 0px;
+  margin-top: 7vh;
+  border-top: 2px solid #a4a19f;
+  border-left: 2px solid #a4a19f;
+  border-bottom: 2px solid #a4a19f;
+  font-family: "Poppins", sans-serif;
+}
+.sectionRightText {
+  padding: 38vh 5vw 2vh 5vw;
+  text-align: left;
+}
+
+@media (max-width: 675px) {
+  .sectionRight {
+    position: relative;
+    width: 90vw;
+    border-right: 2px solid #a4a19f;
+    margin-top: 0;
+    order: 4;
+
+  }
+  .sectionRightText {
+ display: none;
+  }
+  
+  }

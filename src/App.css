@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  max-width: 1130px;
+  min-width: 360px;
+  width: 100vw;
+  background-color: #d2d0ce;
+}
+
+.foto {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  border: 2px solid #a4a19f;
+  margin: 21vh 0 0 6vw;
+  border-radius: 20px;
+  background-image: url(../public/img/audio_quality_spatial.jpg);
+  background-size: contain;
+}
+h1 {
+  font-size: bold;
+  text-transform: uppercase;
+}
+.footer {
+  width: 100%;
+  height: 5vh;
+  background-color: #d2d0ce;
+}
+
+@media (max-width: 675px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding-bottom: 5vh;
+  }
+  .foto {
+    position: relative;
+    margin: 0 auto;
+    order: 1;
+  }
+}

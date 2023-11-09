@@ -1,0 +1,38 @@
+.name {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  width: 95%;
+  /* height: 30vh; */
+  left: 0px;
+  margin: 14vh 7vw 0 0;
+  background-color: #f9f9f6;
+  border: 2px solid #a4a19f;
+  border-left: none;
+}
+.nameText {
+  max-width: 360px;
+  margin-right: 10vw;
+}
+.name h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .nameText {
+    margin-right: 0;
+  }
+
+}
+@media (max-width: 675px) {
+.name {
+  position: relative;
+  margin-top: 1vw;
+  order: 2;
+}
+.nameText {
+  max-width: 360px;
+  margin:auto;
+}
+
+  }
